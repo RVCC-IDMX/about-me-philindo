@@ -1,0 +1,40 @@
+body
+ {
+    background-color: #35A062;
+    color: black;
+
+ }
+    h1, h2, h3, h4, h5, h6
+     {
+        font-family: "Oleo Script";
+        font-size: 65pt;
+    }
+header{
+    text-align-last: center;
+}
+#hero, footer {
+    text-align: center;
+    background-color: #00F566;
+    padding: 50px;
+    border: 10px solid #000000;
+    border-radius: 20px;
+    font-family: "Oleo Script";
+    font-size: 40pt;
+}
+
+#hero img {
+    width: 275px;
+}
+#about-me {
+    text-align: center;
+    font-family: "Rye";
+    font-size: 25pt;
+    padding: 50px;
+    border: 10px solid #000000;
+    border-radius: 20px;
+
+}
+
+
+
+}
