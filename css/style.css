@@ -1,7 +1,7 @@
 body
  {
     background-color: #35A062;
-    color: black;
+    color: #2b332e;
 
  }
     h1, h2, h3, h4, h5, h6
@@ -16,8 +16,8 @@ header{
     text-align: center;
     background-color: #00F566;
     padding: 50px;
-    border: 10px solid #000000;
-    border-radius: 20px;
+    border: 5px solid #2b332e;
+    border-radius: 10px;
     font-family: "Oleo Script";
     font-size: 40pt;
 }
@@ -30,7 +30,7 @@ header{
     font-family: "Rye";
     font-size: 25pt;
     padding: 50px;
-    border: 10px solid #000000;
+    border: 10px solid #2b332e;
     border-radius: 20px;
 
 }
