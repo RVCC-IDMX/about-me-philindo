@@ -55,6 +55,7 @@ header{
     padding-left: 1.5rem;
     list-style-position: inside;
     animation: colorCycle2 5s infinite;
+    margin: 30px;
 
 
 
@@ -67,11 +68,11 @@ header{
 
 
 @keyframes colorCycle {
-    0% { color: aliceblue; }
+    0% { color: white; }
 
-    50% { color:#69bde2  }
+    50% { color: #69bde2  }
 
-    100% {color: aliceblue ; }
+    100% {color: white ; }
 
 }
 
@@ -86,4 +87,75 @@ header{
     50% { color:gold}
 
     100% {color: gainsboro ; }
+
+}
+
+@keyframes colorCycle3{
+    0% { color: white}
+
+
+    50% { color:rgb(42, 42, 42)}
+
+    100% {color: white ; }
+}
+
+
+
+    #gallery {
+
+        border: 10px solid #2b332e;
+padding: 50px;
+       margin:  50px;
+    }
+
+
+
+
+#gallery figure{
+    text-align: center;
+    font-family: "Rye";
+    font-size: 25pt;
+    padding: 50px;
+    border-radius: 20px;
+
+
+
+
+
+
+
+
+}
+
+#gallery h2{
+    text-align: center;
+    font-family: "Rye";
+    font-size: 50pt;
+    padding: 50px;
+
+    color:black;
+        text-decoration:underline black;
+
+}
+
+#gallery img  {
+    max-width: 100%;
+    padding: 50px;
+    display: inline-block;
+
+     padding: 50px;
+     margin: 20px;
+
+}
+#gallery figcaption {
+    text-align: center;
+    font-family: "Rye";
+    font-size: 38pt;
+    padding: 20px;
+    border-radius: 20px;
+    animation: colorCycle3 25s infinite;
+     text-decoration:wavy black;
+     margin: 10px;
+      border: 5px solid #2b332e;
+
 }
