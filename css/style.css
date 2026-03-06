@@ -1,6 +1,9 @@
 body
+
+/*THis is the beginning of my code*/
+
  {
-    background-color: #35A062;
+    background-color:#E3D017;
     color: #2b332e;
 
  }
@@ -12,20 +15,23 @@ body
 header{
     text-align-last: center;
 
+
+    /*THIS IS CODE FOR MY FOOTER*/
 }
 #hero, footer {
     text-align: center;
-    background-color: #00F566;
+    background-color: #E38417;
     padding: 50px;
     border: 5px solid #2b332e;
     border-radius: 10px;
     font-family: "Oleo Script";
     font-size: 40pt;
 }
-
+/* SETTING DEMINSIONS FOR THE IMG IN THE HERO id*/
 #hero img {
     width: 275px;
 }
+/* Some more style for my text in the about me id*/
 #about-me {
     text-align: center;
     font-family: "Rye";
@@ -36,7 +42,7 @@ header{
     margin: 4rem;
 
 }
-
+/* Some style for the netlify id*/
 #netlify {
     text-align: center;
     font-family: "Rye";
@@ -46,7 +52,7 @@ header{
 
 
 }
-
+/* Adding more style for my hobbies id*/
 #hobbies {
     text-align: center;
     font-family: "Rye";
@@ -56,23 +62,24 @@ header{
     border-radius: 10px;
     padding-left: 1.5rem;
     list-style-position: inside;
-    animation: colorCycle2 5s infinite;
+    animation: colorCycle2 20s infinite;
     margin: 30px;
 
 
 
 }
 
+/* Adding style for unordersed list in the hobbies id*/
 #hobbies ul {
     display: inline-block;
     text-align: left;
 }
-
+/* i added some animations using the at-rule  @keyframes. I found this  while doing some research. */
 
 @keyframes colorCycle {
     0% { color: white; }
 
-    50% { color: #69bde2  }
+    50% { color: blue }
 
     100% {color: white ; }
 
@@ -83,12 +90,12 @@ header{
 }
 
 @keyframes colorCycle2 {
-    0% { color: gainsboro}
+    0% { color: whitesmoke}
 
 
-    50% { color:gold}
+    50% { color:black}
 
-    100% {color: gainsboro ; }
+    100% {color: whitesmoke ; }
 
 }
 
@@ -101,7 +108,7 @@ header{
     100% {color: white ; }
 }
 
-
+/* This style is for my gallery section. i tried to  make it a little interesting while keeping things organized. Here you will find me targeting the different elements nested in the element with the id #gallery */
 
     #gallery {
 
@@ -161,7 +168,7 @@ padding: 50px;
       border: 5px solid #2b332e;
 
 }
-
+/* The style i added here is different than the rest of the style in my ccss file. We incorporated a float and pseudo elements. */
 #lit {
 
     font-family: "Rye";
