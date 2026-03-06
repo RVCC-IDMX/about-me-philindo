@@ -44,3 +44,46 @@ header{
 
 
 }
+
+#hobbies {
+    text-align: center;
+    font-family: "Rye";
+    font-size: 25pt;
+  padding: 30px;
+    border: 5px solid #2b332e;
+    border-radius: 10px;
+    padding-left: 1.5rem;
+    list-style-position: inside;
+    animation: colorCycle2 5s infinite;
+
+
+
+}
+
+#hobbies ul {
+    display: inline-block;
+    text-align: left;
+}
+
+
+@keyframes colorCycle {
+    0% { color: aliceblue; }
+
+    50% { color:#69bde2  }
+
+    100% {color: aliceblue ; }
+
+}
+
+#hobbies li {
+    animation: colorCycle 5s infinite;
+}
+
+@keyframes colorCycle2 {
+    0% { color: gainsboro}
+
+
+    50% { color:gold}
+
+    100% {color: gainsboro ; }
+}
