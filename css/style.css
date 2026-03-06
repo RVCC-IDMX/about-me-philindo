@@ -11,6 +11,7 @@ body
     }
 header{
     text-align-last: center;
+
 }
 #hero, footer {
     text-align: center;
@@ -32,6 +33,7 @@ header{
     padding: 50px;
     border: 10px solid #2b332e;
     border-radius: 20px;
+    margin: 4rem;
 
 }
 
@@ -105,7 +107,7 @@ header{
 
         border: 10px solid #2b332e;
 padding: 50px;
-       margin:  50px;
+       margin:  4rem;
     }
 
 
@@ -158,4 +160,57 @@ padding: 50px;
      margin: 10px;
       border: 5px solid #2b332e;
 
+}
+
+#lit {
+
+    font-family: "Rye";
+    font-size: 30pt;
+ padding: 50px;
+    border: 10px solid #2b332e;
+    border-radius: 20px;
+    margin: 4rem;
+    margin-bottom: 2rem;;
+
+}
+
+#lit h2 {
+    text-decoration: underline black;
+    color: black;
+    font-size: 50pt;
+    padding: 50px;
+    text-align: center;
+}
+
+#lit div {
+    padding: 2rem;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+#lit div p{
+    padding:2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+
+
+#lit div p:first-letter
+
+{
+
+    color: white;
+    font-family: "Oleo Script";
+    float:left;
+    font-size: 75pt;
+    padding: 10px;
+    line-height: -1em;
+    border:5px solid rgba(43, 51, 46, 0.5);
+    line-height: .65;
+    margin-right: 6pt;
+    background: linear-gradient(to bottom right, gainsboro, #38505a););
+color:white;
+box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.5);
 }
