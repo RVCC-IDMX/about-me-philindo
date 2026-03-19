@@ -120,6 +120,7 @@ header{
       border: 10px solid #2b332e;
        margin:  4rem;
 
+
     }
 
 
@@ -130,11 +131,14 @@ header{
 
 
     font-family: "Rye";
-    font-size: 25pt;
+    font-size: 38pt;
 
     border-radius: 20px;
  display: grid;
 grid-template-columns: 2fr 1fr;
+ display: block;
+
+
 
 
 
@@ -150,10 +154,13 @@ grid-template-columns: 2fr 1fr;
 
     color:black;
         text-decoration:underline black;
+        grid-column: 1/-1;
 
 }
 #gallery img  {
   max-width: 100%;
+  display: grid;
+
 
 
 
@@ -192,17 +199,21 @@ grid-template-columns: 2fr 1fr;
     padding: 2rem;
     max-width: fit-content;
     margin: 0 auto;
+     max-width:100%;
+columns: 40rem;
+
 }
 
 #lit div p{
     padding:2rem;
     max-width: 40rem;
     margin: 0 auto;
+
 }
 
 
 
-#lit div p:first-letter
+#lit div p:first-child:first-letter
 
 {
 
@@ -224,11 +235,30 @@ text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.5);
 /* tablet size */
 @media screen and ( min-width: 60em) {
 
-
+/* flex for figcaption */
 figcaption {
      display: flex;
     justify-content:  center;
     align-items: center;
     font-size: 2rem;
     margin-left: 1rem;
+
+}
+/* image size */
+figure img {
+width: 100%;
+
+}
+
+
+/*  */
+
+@media screen and (min-width: 100em) {
+    #gallery{
+        display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+hr{
+    display: none;
+}
 }
