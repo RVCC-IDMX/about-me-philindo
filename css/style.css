@@ -12,6 +12,9 @@ body
         font-family: "Oleo Script";
         font-size: 65pt;
     }
+h2{margin: 0.1em;
+}
+
 header{
     text-align-last: center;
 
@@ -53,18 +56,21 @@ header{
 
 }
 /* Adding more style for my hobbies id*/
+
+
+
+
+
 #hobbies {
     text-align: center;
     font-family: "Rye";
     font-size: 25pt;
-  padding: 30px;
+    padding: 30px 0;
     border: 5px solid #2b332e;
-    border-radius: 10px;
-    padding-left: 1.5rem;
-    list-style-position: inside;
     animation: colorCycle2 20s infinite;
-    margin: 30px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 
 }
@@ -111,24 +117,24 @@ header{
 /* This style is for my gallery section. i tried to  make it a little interesting while keeping things organized. Here you will find me targeting the different elements nested in the element with the id #gallery */
 
     #gallery {
-
-        border: 10px solid #2b332e;
-padding: 50px;
+      border: 10px solid #2b332e;
        margin:  4rem;
+
     }
 
 
 
 
 #gallery figure{
-    text-align: center;
+
+
+
     font-family: "Rye";
     font-size: 25pt;
-    padding: 50px;
+
     border-radius: 20px;
-
-
-
+ display: grid;
+grid-template-columns: 2fr 1fr;
 
 
 
@@ -146,26 +152,19 @@ padding: 50px;
         text-decoration:underline black;
 
 }
-
 #gallery img  {
-    max-width: 100%;
-    padding: 50px;
-    display: inline-block;
+  max-width: 100%;
 
-     padding: 50px;
-     margin: 20px;
+
 
 }
 #gallery figcaption {
-    text-align: center;
+
     font-family: "Rye";
-    font-size: 38pt;
-    padding: 20px;
-    border-radius: 20px;
+
     animation: colorCycle3 25s infinite;
      text-decoration:wavy black;
-     margin: 10px;
-      border: 5px solid #2b332e;
+
 
 }
 /* The style i added here is different than the rest of the style in my ccss file. We incorporated a float and pseudo elements. */
@@ -220,4 +219,16 @@ padding: 50px;
 color:white;
 box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* tablet size */
+@media screen and ( min-width: 60em) {
+
+
+figcaption {
+     display: flex;
+    justify-content:  center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 1rem;
 }
