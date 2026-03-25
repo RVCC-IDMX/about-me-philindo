@@ -82,37 +82,11 @@ header{
 }
 /* i added some animations using the at-rule  @keyframes. I found this  while doing some research. */
 
-@keyframes colorCycle {
-    0% { color: white; }
-
-    50% { color: blue }
-
-    100% {color: white ; }
-
-}
-
-#hobbies li {
-    animation: colorCycle 5s infinite;
-}
-
-@keyframes colorCycle2 {
-    0% { color: whitesmoke}
 
 
-    50% { color:black}
-
-    100% {color: whitesmoke ; }
-
-}
-
-@keyframes colorCycle3{
-    0% { color: white}
 
 
-    50% { color:rgb(42, 42, 42)}
 
-    100% {color: white ; }
-}
 
 /* This style is for my gallery section. i tried to  make it a little interesting while keeping things organized. Here you will find me targeting the different elements nested in the element with the id #gallery */
 
@@ -171,6 +145,7 @@ grid-template-columns: 2fr 1fr;
 
     animation: colorCycle3 25s infinite;
      text-decoration:wavy black;
+     text-align: center;
 
 
 }
@@ -183,7 +158,8 @@ grid-template-columns: 2fr 1fr;
     border: 10px solid #2b332e;
     border-radius: 20px;
     margin: 4rem;
-    margin-bottom: 2rem;;
+    margin-bottom: 2rem;
+
 
 }
 
@@ -199,8 +175,8 @@ grid-template-columns: 2fr 1fr;
     padding: 2rem;
     max-width: fit-content;
     margin: 0 auto;
-     max-width:100%;
-columns: 40rem;
+    max-width:100%;
+    columns: 40rem;
 
 }
 
