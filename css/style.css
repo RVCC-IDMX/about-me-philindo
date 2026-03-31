@@ -209,7 +209,7 @@ text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* tablet size */
-@media screen and ( min-width: 60em) {
+@media screen and ( max-width: 60em) {
 
 /* flex for figcaption */
 figcaption {
@@ -218,7 +218,7 @@ figcaption {
     align-items: center;
     font-size: 2rem;
     margin-left: 1rem;
-
+}
 }
 /* image size */
 figure img {
@@ -230,11 +230,82 @@ width: 100%;
 /*  */
 
 @media screen and (min-width: 100em) {
-    #gallery{
+    #gallery {
         display: grid;
 grid-template-columns: 1fr 1fr 1fr;
+
 }
-hr{
+
+ hr {
     display: none;
 }
+
+}
+
+@media screen and (max-width: 768px) {
+
+h1, h2{
+        font-size: 2rem;
+    }
+
+
+    #hero, footer {
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+
+    #about-me,
+    #hobbies,
+    #lit {
+        font-size: 1.2rem;
+        padding: 20px;
+        margin: 1rem;
+    }
+
+
+    #lit div {
+        columns: 1;
+    }
+
+
+    #gallery figure {
+        display: block;
+    }
+
+
+    #hero img {
+        width: 150px;
+    }
+
+
+    figcaption {
+        font-size: 1rem;
+        margin-left: 0;
+    }
+
+    #lit h2{
+        text-align: center;
+        font-size: 30pt;
+        display: flex;
+    justify-content:  center;
+    align-items: center;
+    }
+
+    #gallery h2{
+        text-align: center;
+        font-size: 23pt;
+    }
+
+    #gallery img{
+       width: 100%;
+        max-width: 100%;
+        height: auto;
+        float: top;
+        margin: 0 0 20px 0;
+    }
+
+    figure img {
+width: 100%;
+    }
+
 }
