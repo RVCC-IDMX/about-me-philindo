@@ -306,6 +306,9 @@ h1, h2{
     figure img {
 width: 100%;
     }
+    #Video iframe {
+        text-align: center;
+    }
 
 }
 
