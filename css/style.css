@@ -73,6 +73,7 @@ header{
     align-items: center;
 
 
+
 }
 
 /* Adding style for unordersed list in the hobbies id*/
@@ -80,8 +81,6 @@ header{
     display: inline-block;
     text-align: left;
 }
-/* i added some animations using the at-rule  @keyframes. I found this  while doing some research. */
-
 
 
 
@@ -208,7 +207,7 @@ box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* tablet size */
+/* phone size */
 @media screen and ( max-width: 60em) {
 
 /* flex for figcaption */
@@ -227,8 +226,8 @@ width: 100%;
 }
 
 
-/*  */
 
+/* Tablet sizing  */
 @media screen and (min-width: 100em) {
     #gallery {
         display: grid;
@@ -241,7 +240,7 @@ grid-template-columns: 1fr 1fr 1fr;
 }
 
 }
-
+/* more phone sizing  */
 @media screen and (max-width: 768px) {
 
 h1, h2{
@@ -307,5 +306,37 @@ h1, h2{
     figure img {
 width: 100%;
     }
+
+}
+
+
+/* style for iframe and video section */
+
+
+#Video p{
+    text-align: center;
+    font-family: "Rye";
+    font-size: 20pt;
+    padding: 50px;
+    border-bottom: 10px solid #2b332e;
+
+}
+
+#Video h2 {
+    text-align: center;
+
+}
+
+#Video iframe {
+aspect-ratio:  16/ 9;
+padding-bottom: 40pt;
+padding-top: 40pt;
+text-align: center;
+
+
+}
+
+#Video p{
+
 
 }
