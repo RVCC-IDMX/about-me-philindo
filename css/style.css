@@ -207,6 +207,99 @@ box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.5);
 }
 
+
+
+/* Grid style */
+#formElements {
+display: grid;
+row-gap: .5rem;
+
+
+
+}
+
+
+#formElements label {
+   text-align: left;
+}
+
+
+#contact h2 {
+    text-align: center;
+    font-family: "Rye";
+    font-size: 25pt;
+    padding:50px;
+}
+
+#contact {
+ max-width: 600px;
+text-align: center;
+    font-family: "Rye";
+    font-size: 15pt;
+    margin: auto;
+    padding-bottom: 20pt;
+
+
+}
+
+  fieldset {
+        border: 5px solid #2b332e;
+        border-radius: 10px;
+        margin-bottom: .5rem;
+        margin-top: 1rem;
+        padding: 20pt;
+        color: rgb(39, 42, 42);
+        padding-bottom: 30pt;
+        margin-top: 20pt;
+
+    }
+legend {
+    background-color: #d37315;
+    color: black;
+    padding: .5em ;
+
+}
+
+
+
+    #contact input, #contact textarea, #contact select, #contact button {
+
+        padding: .5rem;
+        font-size: 20pt;
+
+    }
+
+    #contact ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+    #contact button {
+        background-color: #d37315;
+        border-radius: 5px;
+        cursor: pointer;
+        justify-self: center;
+        width: 350px;
+        font-family: "Rye";
+        padding: 10pt;
+        padding-bottom: 10pt;
+        margin-top: 20pt;
+
+
+    }
+
+     #contactform li{
+    padding: 20pt;
+    float: left;
+}
+
+
+
+
+
+
+
+
 /* phone size */
 @media screen and ( max-width: 60em) {
 
@@ -217,7 +310,12 @@ figcaption {
     align-items: center;
     font-size: 2rem;
     margin-left: 1rem;
+
+
+
 }
+
+
 }
 /* image size */
 figure img {
@@ -308,7 +406,17 @@ width: 100%;
     }
 
 
+     #contactform li{
+
+    padding: 10pt;
+    display: flex;
+  justify-content: center;
+
 }
+}
+
+
+
 
 
 /* style for iframe and video section */
@@ -335,10 +443,4 @@ padding-top: 40pt;
 
 
 
-}
-
-
-
-#formElements{
-display:grid
 }
