@@ -413,7 +413,31 @@ width: 100%;
   justify-content: center;
 
 }
+#Video h2 {
+           display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
+
+
+#Video p {
+         text-align: center;
+        font-size: 30pt;
+        display: flex;
+
+
+}
+
+#contactform {
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+}
+
+
 
 
 
