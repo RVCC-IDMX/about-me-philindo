@@ -21,7 +21,15 @@ main {
 
 /* navbar */
 
+.navbar {
 
+
+    color: black;
+    display:flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+}
 
 /* logo */
 
