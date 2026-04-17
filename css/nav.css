@@ -29,6 +29,12 @@ main {
     flex-direction: column;
     font-size: 1.5em;
     margin-bottom: 1rem;
+    padding :1rem;
+    background-color: #E38417;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-family: "Rye"
+
 }
 
 /* logo */
@@ -65,12 +71,13 @@ main {
 .navbar-links a {
 
     color: black;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 1rem 1.25rem;
     background-color: #E38417;
     letter-spacing:2px;
     text-decoration: none;
     display:inline-block;
+
 }
 
 .navbar-links a:hover,
@@ -89,3 +96,27 @@ media query for non-mobile nav bar
 min-width set to width of nav elements
 such that no text wraps
 */
+
+@media screen and (min-width: 60rem)   {
+
+
+    .navbar-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+           text-align: center;
+
+
+    }
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar ul {
+
+        display: flex;
+
+    }
+}
