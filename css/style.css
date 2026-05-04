@@ -316,13 +316,12 @@ figcaption {
     align-items: center;
     font-size: 2rem;
     margin-left: 1rem;
-
-
-
 }
 
 
 }
+
+
 /* image size */
 figure img {
 width: 100%;
@@ -409,6 +408,7 @@ h1, h2{
 
     figure img {
 width: 100%;
+
     }
 
 
@@ -440,6 +440,11 @@ width: 100%;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+
+
+
+
+
 }
 }
 
@@ -471,6 +476,32 @@ aspect-ratio:  16/ 9;
 padding-bottom: 40pt;
 padding-top: 40pt;
 
+
+
+}
+
+
+@media screen and ( min-width: 60em) {
+
+    #gallery {
+     display: grid   ;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+ hr {
+    display: none;
+}
+align-items: center;
+
+
+
+       width: 100%;
+        max-width: 100%;
+        height: auto;
+        float: top;
+        margin: 0 0 20px 0;
+    }
 
 
 }
