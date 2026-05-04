@@ -491,7 +491,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 
  hr {
     display: none;
-}
+
 align-items: center;
 
 
@@ -502,6 +502,5 @@ align-items: center;
         float: top;
         margin: 0 0 20px 0;
     }
-
 
 }
