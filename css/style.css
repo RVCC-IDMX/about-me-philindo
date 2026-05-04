@@ -120,12 +120,9 @@ grid-template-columns: 2fr 1fr;
  display: block;
 
 
-
-
-
-
-
 }
+
+
 
 #gallery h2{
     text-align: center;
@@ -154,8 +151,9 @@ grid-template-columns: 2fr 1fr;
      text-decoration:wavy black;
      text-align: center;
 
-
 }
+
+
 /* The style i added here is different than the rest of the style in my ccss file. We incorporated a float and pseudo elements. */
 #lit {
 
@@ -336,8 +334,8 @@ width: 100%;
 /* Tablet sizing  */
 @media screen and (min-width: 100em) {
     #gallery {
-        display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+     display: grid   ;
+grid-template-columns: 1fr 1fr 1fr 1fr;
 
 }
 
