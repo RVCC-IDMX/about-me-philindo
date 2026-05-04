@@ -14,3 +14,10 @@ Netlify hosting.
 Netlify status bar
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/51430d9f-e2cb-4880-95a7-ff30946d3af0/deploy-status)](https://app.netlify.com/projects/about-me-philindo/deploys)
+
+sources
+https://www.sterlingsky.ca/embed-google-maps/
+
+https://www.labnol.org/internet/embed-responsive-google-maps/28333
+
+https://www.coachy.net/en/blog/iframe/#:~:text=Since%20the%20content%20is%20mirrored,the%20%22HTML%20Element%22%20feature.

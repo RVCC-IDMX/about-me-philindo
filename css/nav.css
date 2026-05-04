@@ -17,7 +17,29 @@ body {
 main {
     padding: 2vw;
 }
+#menu-toggle {
+    display: none;
+}
+/* hamburger menu addition */
+.menu-toggle {
+    cursor: pointer;
+    text-align: right;
+      position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+}
 
+#menu-toggle:checked ~ .navbar-links {
+    display: block;
+}
+
+
+    .navbar-links {
+       display: none;
+
+
+    }
 
 /* navbar */
 
@@ -33,7 +55,12 @@ main {
     background-color: #E38417;
     padding-right: 1rem;
     padding-left: 1rem;
-    font-family: "Rye"
+    font-family: "Rye";
+    position: relative;
+
+
+
+
 
 }
 
@@ -60,7 +87,7 @@ main {
 
     list-style-type: none;
     padding: 0.5em 0;
-
+ padding-top: 50px;
 }
 
 /*
@@ -77,6 +104,8 @@ main {
     letter-spacing:2px;
     text-decoration: none;
     display:inline-block;
+    padding-top: 20px;
+
 
 }
 
@@ -101,7 +130,7 @@ such that no text wraps
 
 
     .navbar-links {
-        display: flex;
+        display: none;
         flex-direction: row;
         justify-content: space-between;
            text-align: center;

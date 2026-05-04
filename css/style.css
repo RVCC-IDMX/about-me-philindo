@@ -21,6 +21,14 @@ header{
 
     /*THIS IS CODE FOR MY FOOTER*/
 }
+/* basic map styles */
+
+#map{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
 #hero, footer {
     text-align: center;
     background-color: #E38417;
